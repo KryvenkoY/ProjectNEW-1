@@ -29,8 +29,8 @@ class StrengthHero extends Hero {
 }
 public class HeroDota {
     public static void main(String[] args) {
-        StrengthHero Axe = new StrengthHero("Axe", 3000, 400, 15);
-        Axe.attack();
-        Axe.tank();
+        StrengthHero axe = new StrengthHero("Axe", 3000, 400, 15);
+        axe.attack();
+        axe.tank();
     }
 }
