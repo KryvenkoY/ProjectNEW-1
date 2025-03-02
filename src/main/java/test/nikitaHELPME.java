@@ -1,8 +1,7 @@
 package test;
 
 import java.util.Arrays;
-import java.util.Arrays;
-import java.util.Scanner;
+
 class test {
     public static void main(String[] args) {
 
@@ -42,7 +41,7 @@ class test {
 
         int coffee = 11 % 3; //modulo or modulus
         System.out.println(coffee);
-        int[] scores = {20, 25 ,30, 35};
+        int[] scores = {20, 25, 30, 35};
         //System.out.println(scores);
         System.out.println(Arrays.toString(scores));
         String[] days = {"Понеділок", "Вівторок", "Середа", "четвер", "п'ятниця"};
@@ -74,45 +73,19 @@ class test {
         //System.out.println("Число: " +number1);
         //System.out.println("Парне? " + isEven);
         int number1 = 5;
-        boolean isEven = (number8 % 3==0);
-        System.out.println("Число: " +number1);
+        boolean isEven = (number8 % 3 == 0);
+        System.out.println("Число: " + number1);
         System.out.println("Парне? " + isEven);
         //LUX )) але трохи не зрозумів сенс
 
         String name = "Hello, My name Yegor // \nlast name Kryvenko";
-        System.out.println("Привіт" +name);
+        System.out.println("Привіт" + name);
         //boolean 6 = true;
         //boolean 7 = false;
 
-        int[] numberX = {20,30,40};
+        int[] numberX = {20, 30, 40};
         System.out.println("Перше число: " + numberX[0]);
         System.out.println("Друге число: " + numberX[1]);
         System.out.println("Третє число: " + numberX[2]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
