@@ -1,6 +1,6 @@
 package test;
 
-public class Functions_2 {
+public class FunctionsTwo {
     //Functions !
     //Функції в Java називаються методами.
     //Вони можуть бути зі змінними (приймати параметри) та без.

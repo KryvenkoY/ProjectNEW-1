@@ -2,7 +2,7 @@ package test;
 
 import java.util.Arrays;
 
-class NikitaHELPME {
+class Test {
     public static void main(String[] args) {
 
 

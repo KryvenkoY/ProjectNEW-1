@@ -1,7 +1,7 @@
 package test;
 import java.util.Scanner;
 
-public class OperatorsIf {
+public class IfOperators {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
 
