@@ -9,7 +9,7 @@ class Beverage {
         this.volume = volume;
     }
     public void prepare() {
-        System.out.println("Готується напій!" + name);
+        System.out.println("Готується напій: " + name);
     }
     public void getInfo() {
         System.out.println(name+ " - " + volume + "ml, price: " + price + " grn.");
@@ -26,7 +26,7 @@ class Espresso extends Beverage {
 }
 class Tea extends Beverage {
     public Tea() {
-        super("TeaEnglishBreakfast" , 55.0, 350);
+        super("Tea English Breakfast" , 55.0, 350);
     }
     @Override
     public void prepare() {
@@ -35,7 +35,7 @@ class Tea extends Beverage {
 }
 class Cappuccino extends Beverage {
     public Cappuccino() {
-        super("CappuccinoCoffee" , 75, 230);
+        super("Cappuccino Coffee" , 75, 230);
     }
     @Override
     public void prepare() {
@@ -44,7 +44,7 @@ class Cappuccino extends Beverage {
 }
 class MilkShake extends Beverage {
     public MilkShake() {
-        super("Mango and pineapple MilkShake" , 130, 450);
+        super("Mango and pineapple Milk Shake" , 130, 450);
     }
     @Override
     public void prepare() {
@@ -53,7 +53,7 @@ class MilkShake extends Beverage {
 }
 class AlcoholicCoctail extends Beverage {
     public AlcoholicCoctail() {
-        super("PornStar coctail" , 350, 210);
+        super("Porn Star coctail" , 350, 210);
     }
     @Override
     public void prepare() {
@@ -72,7 +72,7 @@ public class Coffee {
         for (Beverage drink: menu) {
             drink.getInfo();
             drink.prepare();
-            System.out.println("-----------------    -------------------");
+            System.out.println("=========================");
         }
     }
 }
