@@ -1,7 +1,7 @@
 package test;
 import java.util.Scanner;
 
-public class java_methods {
+public class Java_methods {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("What`s your name?");
@@ -10,8 +10,8 @@ public class java_methods {
         String country = scanner.nextLine();
         double weight = 91.5;
         sayHi(name, country, 31, weight);
-
     }
+
     // Методи з параметрами урок 17
     public static void sayHi (String name, String country, int age, double weight)
     {
@@ -43,8 +43,6 @@ public class java_methods {
         //    Перевантаження методів (Method Overloading) дозволяє використовувати однакові імена, але різні параметри.
         //    Рекурсія – це коли метод викликає сам себе.
         //    static методи можна викликати без створення об'єкта.
-
-
     }
 }
 

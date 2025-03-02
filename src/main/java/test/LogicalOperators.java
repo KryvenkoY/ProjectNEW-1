@@ -15,7 +15,7 @@ public class LogicalOperators {
         }
         //  int age = s.nextInt();
         //  if (age>40){
-        //      System.out.println("Щось підозріло ь=багато років");
+        //      System.out.println("Щось підозріло багато років");
         //System.out.println(1==2);
         int a = 5, b = 10;
         if (a == 1 ^ b == 10) {
