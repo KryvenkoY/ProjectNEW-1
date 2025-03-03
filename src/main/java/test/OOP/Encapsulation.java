@@ -1,3 +1,4 @@
+package test.OOP;
 
 class Animal {
     private String name;

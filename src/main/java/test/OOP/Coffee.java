@@ -1,3 +1,5 @@
+package test.OOP;
+
 class Beverage {
     protected String name;
     protected double price;
