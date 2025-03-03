@@ -1,4 +1,4 @@
-package test.OOP;
+package test.oop;
 
 class Animal {
     private String name;

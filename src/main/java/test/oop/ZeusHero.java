@@ -1,4 +1,4 @@
-package test.OOP;
+package test.oop;
 class HeroOne {
     protected String name;
         public HeroOne(String name) {
