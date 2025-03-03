@@ -1,4 +1,4 @@
-package test.oop;
+package oop;
 interface Athlete {
     void warmUp();   // Метод для розминки спортсменів
     void train();    // Метод для основного тренування спортсменів

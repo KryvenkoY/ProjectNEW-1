@@ -1,4 +1,4 @@
-package test;
+package Functions;
 
 public class RemainderCalculator {
     public static void main(String[] args){

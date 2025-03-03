@@ -1,4 +1,4 @@
-package test;
+package Functions;
 
 public class FunctionsTwo {
     //Functions !

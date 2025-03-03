@@ -1,4 +1,4 @@
-package test.oop;
+package oop;
 
 class Hero {
     String name;
