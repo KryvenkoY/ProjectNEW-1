@@ -42,18 +42,18 @@ class Cappuccino extends Beverage {
         System.out.println(name+ ": варимо еспресо та додаємо вспінене молоко та малюємо латте арт.");
     }
 }
-class MilkShake extends Beverage {
-    public MilkShake() {
-        super("Mango and pineapple Milk Shake" , 130, 450);
+class Milkshake extends Beverage {
+    public Milkshake() {
+        super("Mango and pineapple Milkshake" , 130, 450);
     }
     @Override
     public void prepare() {
         System.out.println(name+ ": додаємо молоко з фруктовим п'юре та шейкуємо");
     }
 }
-class AlcoholicCoctail extends Beverage {
-    public AlcoholicCoctail() {
-        super("Porn Star coctail" , 350, 210);
+class AlcoholicCocktail extends Beverage {
+    public AlcoholicCocktail() {
+        super("Porn Star cocktail" , 350, 210);
     }
     @Override
     public void prepare() {
@@ -66,8 +66,8 @@ public class Coffee {
                 new Espresso(),
                 new Tea(),
                 new Cappuccino(),
-                new MilkShake(),
-                new AlcoholicCoctail()
+                new Milkshake(),
+                new AlcoholicCocktail()
         };
         for (Beverage drink: menu) {
             drink.getInfo();
