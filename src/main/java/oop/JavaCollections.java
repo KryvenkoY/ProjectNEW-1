@@ -8,22 +8,32 @@ Java Collections Framework (JCF) – це набір класів і інтер�
  */
 public class JavaCollections {
     public static void main(String[] args) {
+        System.out.println("\n=== ArrayList: Месники (Avengers) ===");
+        avengersTeam();
+
+        System.out.println("\n=== HashMap: Камені Нескінченності ===");
+        infinityStones();
+
+        System.out.println("\n=== HashSet: Мультивсесвіти Marvel ===");
+        marvelMultiverse();
+    }
+
+    public static void avengersTeam() {
         ArrayList<String> avengers = new ArrayList<>();
         //Додаємо персонажів з індивідуальним індексом
-        avengers.add("IronMan");
+        avengers.add("Iron Man");
         avengers.add("Captain Ukraine");
         avengers.add("Thor");
         avengers.add("Hulk");
         //Додаємо нового героя який приєднався до команди(Людина павук)
-        avengers.add(2,"Spider Man");
+        avengers.add(2, "Spider Man");
         //IronMan пішов на пенсію
         avengers.remove("IronMan");
-        System.out.println("Поточний склад Avengers: " +avengers);
-        System.out.println("Лідер команди: " +avengers.get(0));
+        System.out.println("Поточний склад Avengers: " + avengers);
+        System.out.println("Лідер команди: " + avengers.get(0));
     }
-}
-class InfinityStones {
-    public static void main(String[] args) {
+
+    public static void infinityStones() {
         HashMap<String, String> stones = new HashMap<>();
         // Додаємо Камені Нескінченності (ключ → значення)
         stones.put("Space", "Teleportation");
@@ -49,9 +59,9 @@ class InfinityStones {
             System.out.println(stone + " Stone → " + stones.get(stone));
         }
     }
-}
-class MarvelMultiverse {
-    public static void main(String[] args) {
+
+    // 🌌 HashSet – Унікальні Мультивсесвіти Marvel
+    public static void marvelMultiverse() {
         HashSet<String> universes = new HashSet<>();
 
         // Додаємо унікальні всесвіти
